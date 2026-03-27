@@ -1,1 +1,14 @@
+newsBtn.addEventListener('click', function() {
+            // Check if it is hidden or showing
+            if (announcement.classList.contains('hidden')) {
+                announcement.classList.remove('hidden');
+                newsBtn.textContent = 'Hide News';
+            } else {
+                announcement.classList.add('hidden');
+                newsBtn.textContent = 'Show Latest News';
+            }
+        });
+    </script>
 
+</body>
+</html>
